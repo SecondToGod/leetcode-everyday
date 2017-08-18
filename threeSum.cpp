@@ -7,6 +7,7 @@ using namespace std;
 #define N 5
 //无序数组
 //先排序，再遍历,中间夹逼
+//固定除倒数第一、二个变量以外的其他变量
 //O(n) = min(nlogn,n^2)
 vector< vector<int> > threeSum(vector<int> &arr){
     vector< vector<int> > ans;
