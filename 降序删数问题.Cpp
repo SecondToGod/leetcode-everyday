@@ -14,9 +14,9 @@ void del(char *a,int i){
 void delNum(char * a,int k){
 	int i,len = strlen(a);
 	while(k>0){
-	for(i =0;i<len-1 && a[i]<=a[i+1];++i);
-	del(a,i);
-	k--;
+		for(i =0;i<len-1 && a[i]<=a[i+1];++i);
+		del(a,i);
+		k--;
 	}
 }
 int main(){
